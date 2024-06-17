@@ -1,0 +1,39 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+#image{
+    line-height:550px;
+	/*width: 575px;
+    height: 650px;*/
+	border:3px solid black;
+    border-radius: 10%;
+	margin: 50px;
+    background-color: #fedc56;
+    background-image: url('');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100%;
+   /* margin-left: 25px;
+   margin-bottom:25px;*/
+    font-size: 150%;
+    
+}
+.preview{
+		width: 30%;
+		margin: 10px;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+img{
+		width:95%;
+}
+.roma{
+    display: inline-block;
+
+}
+.all{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    justify-content: space-between;
+}

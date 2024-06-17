@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="gallery.css">
+	<script src = "gallery.js"></script>
+</head>
+<body onload="tab()">
+  <h1>Roma photo gallery</h1>
+  <div class="all">
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+     <div class="roma">
+	<img class = "preview" alt = "Colosseo di Roma" src="colosseo.jpeg" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "Panorama di Roma" src = "roma.jpeg" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" src = "affreschi.jpeg" alt = "Affreschi" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class = "preview" src = "pantheon.jpeg" alt = "Pantheon" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+  
+  <img class = "preview" src = "trevi.jpeg" alt = "Fontana di Trevi" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+  
+  <img class = "preview" src = "vaticano.jpeg" alt = "Città del Vaticano" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+</div>
+</div>
+</body>
+</html>
